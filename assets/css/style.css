@@ -1013,6 +1013,16 @@ section {
   line-height:24px;
   color:#737373;
 }
+
+.site-footer p
+{
+  
+  padding:5px 0 10px;
+  font-size:15px;
+  line-height:24px;
+  color:#f3f3f3;
+}
+
 .site-footer hr
 {
   border-top-color:#bbb;
