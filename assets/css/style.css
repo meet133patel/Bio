@@ -111,14 +111,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+  
+  
 }
 
 @media (max-width: 1199px) {
   #header {
     left: -300px;
+	
   }
   #main {
     margin-left: 0;
+	
   }
 }
 
@@ -265,6 +269,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 15px;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding-top: 15px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -284,6 +300,7 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
+  
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -313,6 +330,8 @@ section {
   font-size: 26px;
   color: #173b6c;
 }
+ 
+
 
 .about .content ul {
   list-style: none;
@@ -330,7 +349,7 @@ section {
 }
 
 .about .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -388,6 +407,7 @@ section {
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
+  font-size: 15px;
   display: block;
   background: none;
 }
@@ -396,6 +416,7 @@ section {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
+  
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -413,7 +434,7 @@ section {
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 15px;
   transition: .9s;
   background-color: #149ddd;
 }
@@ -865,6 +886,8 @@ section {
 
 .portfolio-details .portfolio-details-container {
   position: relative;
+ 
+  
 }
 
 .portfolio-details .portfolio-details-carousel {
