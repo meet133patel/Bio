@@ -172,4 +172,31 @@
     easing: "ease-in-out-back"
   });
 
+  
+    /**
+  * Initiate Pure Counter 
+  */
+  // Get the span element
+    const counters = document.querySelectorAll('.purecounter');
+    const duration = 100; // in milliseconds
+
+    counters.forEach(counter => {
+        const start = parseInt(counter.getAttribute('data-purecounter-start'));
+        const end = parseInt(counter.getAttribute('data-purecounter-end'));
+
+        let current = start;
+
+        const increment = (end - start) / (duration / 100);
+
+        const updateCounter = () => {
+            current += increment;
+            counter.innerText = Math.ceil(current);
+
+            if (current < end) {
+                setTimeout(updateCounter, 1);
+            }
+        };
+
+        updateCounter();
+  
 })(jQuery);
