@@ -206,10 +206,10 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg5.jpg") top center;
-  background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/Mit-3.png") top center;
+    background-size: cover;
 }
 
 #hero:before {
@@ -359,6 +359,16 @@ section {
   padding-bottom: 30px;
 }
 
+.purecounter {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+}
+
+
 .facts .count-box {
   padding: 30px;
   width: 100%;
@@ -369,6 +379,7 @@ section {
   font-size: 44px;
   color: #149ddd;
   float: left;
+  line-height: 0;
 }
 
 .facts .count-box span {
