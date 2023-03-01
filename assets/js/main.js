@@ -172,7 +172,6 @@
     easing: "ease-in-out-back"
   });
 
-  
     /**
   * Initiate Pure Counter 
   */
@@ -198,5 +197,10 @@
         };
 
         updateCounter();
-  
+    });
+
+
+
+
+
 })(jQuery);
