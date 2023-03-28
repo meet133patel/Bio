@@ -276,16 +276,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   margin-top: 15px;
   padding-top: 15px;
 }
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
@@ -294,7 +296,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -517,6 +519,13 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
+.responsive-video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 .portfolio #portfolio-flters {
   padding: 0;
